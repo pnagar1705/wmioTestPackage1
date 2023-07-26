@@ -1,0 +1,13 @@
+version: "1.0"
+info:
+  scaffold: t
+  model: int-scaffold
+services:
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.256
+- serviceName: edge.gitservertest.integrations:t
+  packages:
+  - name: wmioTestPackage1
+    version: "1.0"
